@@ -19,7 +19,7 @@ reddit = praw.Reddit(
     username=" Mediocre-Froyo-9033 ",
     password="chocomoco"
 )
-subreddit= reddit.subreddit("bollywood")
+subreddit = reddit.subreddit("bollywood")
 for post in subreddit.hot(limit=140):
     print("^^^^^^^^^^^^^^")
     print(post.title)
