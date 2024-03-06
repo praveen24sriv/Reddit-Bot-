@@ -1,8 +1,8 @@
 import praw
 import random
 import time
-# mike is an array of "inspirational" quotes!!
-mike = [
+# QUOTES is an array of "inspirational" quotes!!
+QUOTES = [
     "Would I rather be happy or right? Michael, I am always right. It's not even a question -Michael Scott",
 "Do I need to be liked? Absolutely not. I like to be liked. I enjoy being liked. I have to be liked. But it's not like this, compulsive, need, to be liked. Like my need to be praised. -Michael Scott",
 "I knew exactly what to do. But in a much more real sense, I had no idea what to do. -Michael Scott",
