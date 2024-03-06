@@ -2,7 +2,7 @@ import praw
 import random
 import time
 #mike is an array of "inspirational" quotes!!
-mike=["Would I rather be happy or right? Michael, I am always right. It's not even a question -Michael Scott",
+mike = ["Would I rather be happy or right? Michael, I am always right. It's not even a question -Michael Scott",
 
 "Do I need to be liked? Absolutely not. I like to be liked. I enjoy being liked. I have to be liked. But it's not like this, compulsive, need, to be liked. Like my need to be praised. -Michael Scott",
 
@@ -25,7 +25,7 @@ reddit = praw.Reddit(
     username=" Mediocre-Froyo-9033 ",
     password="chocomoco"
 )
-subreddit=reddit.subreddit("bollywood")
+subreddit= reddit.subreddit("bollywood")
 for post in subreddit.hot(limit=140):
     print("^^^^^^^^^^^^^^")
     print(post.title)
