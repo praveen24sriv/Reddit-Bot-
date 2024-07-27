@@ -21,14 +21,14 @@ reddit = praw.Reddit(
 )
 subreddit = reddit.subreddit("bollywood")
 for post in subreddit.hot(limit=140):
-    print("^^^^^^^^^^^^^^")
+    print("^^^^^^^*^*^^^^^^^^")
     print(post.title)
 
     for comment in post.comments:
         if hasattr(comment,'body'):
             commentlower=comment.body.lower()
             if " sad " in commentlower:
-                print("**************")
+                print("***************")
                 print(comment.body)
                 random_index=random.randint(0,len(mike)-1)
                 comment.reply(mike[random_index])
