@@ -1,5 +1,5 @@
-<h1>Reddit-Bot</h1><br>
-<h2>This is a Python Reddit Bot which replies on comments having keyword "SAD" with "POSITIVE" / "FUNNY" quotes</h2>
+<h2>Reddit-Bot</h2><br>
+<h2>This is a Reddit Bot made with Python which replies automatically on Reddit on comments having keyword 'Sad' with "POSITIVE" / "FUNNY" quotes</h2>
 
 
 
